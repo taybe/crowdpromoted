@@ -16,7 +16,7 @@ if(isset($_POST['submitRegister'])){
 
 		if(!empty($row['username'])){
 			$error[] = 'Username provided is already in use.';
-		}
+		} 
 
 	}
 
