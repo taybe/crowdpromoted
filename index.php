@@ -18,7 +18,7 @@ if(isset($_POST['submitRegister'])){
 			$error[] = 'Username provided is already in use.';
 		} 
 
-	}
+	} 
 
 	if(strlen($_POST['password']) < 3){
 		$error[] = 'Password is too short.';
